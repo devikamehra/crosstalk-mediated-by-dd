@@ -1,6 +1,6 @@
 # Defending crosstalk-mediated quantum attacks using dynamical decoupling
 
-This repository contains a quantum experiment simulation using Qiskit on IBM Quantum backend. The script initializes a quantum environment, loads experiment configurations as the choice of the user, and runs various attack scenarios to analyze fidelities.
+This repository contains a quantum experiment simulation using Qiskit on IBM Quantum backend. The script initializes a quantum environment, loads experiment configurations as the choice of the user, and runs various attack scenarios to analyze fidelities. For more details regarding the experiment, refer to [Defending crosstalk-mediated quantum attacks using dynamical decoupling](https://arxiv.org/abs/2409.14598).
 
 ## Requirements
 
@@ -50,10 +50,9 @@ The script will prompt you to choose different attack scenarios. Enter `Yes` or 
 ## File Structure
 ```
 .
-├── TestCircuitQualityDegradation.ipynb  # Main interface which helps in executing the menu for selecting required scenarios and printing the required plots
+├── TestCircuitQualityDegradation.ipynb  # Main interface which helps in executing the menu for selecting required scenarios
 ├── config.json    # Configuration file (create/update before running the code)
-├── ExperimentClass.py  # Experiment class implementation 
-├── README.md      # Documentation
+├── ExperimentClass.py  # Experiment class implementation with code of all the scenarios
 ```
 
 ## Contributing
